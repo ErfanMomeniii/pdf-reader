@@ -108,11 +108,3 @@
 ## 📝 License
 
 MIT © [Erfan Momeni](https://github.com/ErfanMomeniii)
-
----
-
-<div align="center">
-
-**[⬆ Back to Top](#-pdf-reader)**
-
-</div>
