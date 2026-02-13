@@ -47,6 +47,35 @@
 
 > 💡 Visit the [Releases](../../releases) page for all versions and formats (.deb, .rpm, .msi)
 
+<details>
+<summary>🍎 <b>macOS:</b> "Cannot be opened" warning? Click here</summary>
+<br />
+
+Go to **System Settings** → **Privacy & Security** → Click **Open Anyway**
+
+Or run: `xattr -cr /Applications/PDF\ Reader.app`
+
+</details>
+
+<details>
+<summary>🪟 <b>Windows:</b> SmartScreen warning? Click here</summary>
+<br />
+
+Click **More info** → **Run anyway**
+
+</details>
+
+<details>
+<summary>🐧 <b>Linux:</b> How to run AppImage? Click here</summary>
+<br />
+
+```bash
+chmod +x PDF-Reader.AppImage
+./PDF-Reader.AppImage
+```
+
+</details>
+
 ---
 
 ## ✨ Features
