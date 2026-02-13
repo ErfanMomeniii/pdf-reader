@@ -87,7 +87,7 @@ pub fn run() {
             // Help menu (Windows/Linux)
             #[cfg(not(target_os = "macos"))]
             let help_menu = {
-                let about = MenuItem::with_id(handle, "about", "About PDF Reader", true, None)?;
+                let about = MenuItem::with_id(handle, "about", "About PDF Reader", true, None::<&str>)?;
                 Submenu::with_items(handle, "Help", true, &[&about])?
             };
 
